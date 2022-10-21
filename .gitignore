@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 myCredential.py
-
+.idea/
 # C extensions
 *.so
 
