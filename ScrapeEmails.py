@@ -10,4 +10,4 @@ from myCredential import  *
 
 if __name__ == "__main__":
     youtube = connect_api(KEY)
-    retrieve_emails(youtube, "The First Tree", 25, 10000)
+    retrieve_emails(youtube, "my youtube search query", max_results=25, min_views=10000)
