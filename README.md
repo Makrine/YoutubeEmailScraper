@@ -54,3 +54,17 @@ python SteamAppsScraper.py "['Action', 'Adventure']" True 1 "D:/myDirectory/"
 
 
 ```
+
+# API KEY for Youtube API
+
+1) go to [Google Console](https://console.cloud.google.com)
+2) Create a project
+3) Go to Credentials
+![image](https://user-images.githubusercontent.com/66353680/197348196-fd450dfb-0a2f-46cc-952f-dca6eb9706c8.png)
+
+4) Add API key
+![image](https://user-images.githubusercontent.com/66353680/197348279-d80c7cba-ab44-46de-a1b1-3f3c49ddeda7.png)
+
+5) Copy the key and replace KEY with it in ScrapeEmails.py as a string Ex: "someRandomLettersWhichAreTheKey"
+(I have created myCredential.py for myself and put KEY = "myKEY")
+
