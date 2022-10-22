@@ -47,10 +47,11 @@ python SteamAppsScraper.py listOfGenres matchALLOrANYgivenGenres numOfGamesToGet
 ```
 
 if matchALLOrANYgivenGenres is set to True, the games that have both 'Action', 'Adventure' (any other genres too) will be retrived, if it is False then the games with either Action or Adventure or both will be retrieved (and + any other genre)
+The accepted values for it are T or F
 
 Example:
 ```
-python SteamAppsScraper.py "['Action', 'Adventure']" True 1 "D:/myDirectory/"
+python SteamAppsScraper.py "['Action', 'Adventure']" T 1 "D:/myDirectory/"
 
 
 ```
