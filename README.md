@@ -30,7 +30,7 @@ ScrapeEmails creates a file called "emailsNotFound.csv" in the provided director
 
 This will open all the links in the browser
 ```
-python open_links_in_browser.py directory minIndex maxIndex"  
+python open_links_in_browser.py directory minIndex maxIndex
 ```
 
 Example:
