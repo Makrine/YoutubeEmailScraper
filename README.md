@@ -1,4 +1,4 @@
-# YoutubeScraper
+# Youtube And Steam Scraper
 
 Retrieves emails from YouTube channels via search queries if those channels have included their email in description otherwise creates txt file for those channels we didn't get an email from
 
@@ -22,7 +22,7 @@ Example:
 python ScrapeEmails.py "The First Tree" 10 10000 "D:/myDirectory/"
 ```
 
-(also incllude '/' at the end)
+(also incllude '/' at the end of the path)
 
 ## To open channels that we didn't get an email from:
 
