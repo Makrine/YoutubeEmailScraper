@@ -6,7 +6,7 @@
 
 from utils import *
 from connection import *
-from myCredential import *
+# from myCredential import *
 import sys
 
 if __name__ == "__main__":
