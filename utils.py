@@ -83,10 +83,14 @@ def get_emails_from_channel(items, min_views, youtube, output_directory):
     emails = []
 
     for item in items:
-        video_id = item["id"]["videoId"]
 
-        if not video_info(video_id, min_views, youtube):  # if this video doesn't have enough views, pass
-            pass
+        try:
+            video_id = item["id"]["videoId"]
+
+            if not video_info(video_id, min_views, youtube):  # if this video doesn't have enough views, pass
+                pass
+        except:
+            print("couldnt get video id :(")
 
         channel_id = item["snippet"]["channelId"]
         request = youtube.channels().list(
