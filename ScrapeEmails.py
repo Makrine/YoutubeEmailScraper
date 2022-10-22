@@ -6,8 +6,8 @@
 
 from utils import *
 from connection import *
-from myCredential import  *
+from myCredential import *
 
 if __name__ == "__main__":
     youtube = connect_api(KEY)
-    retrieve_emails(youtube, "my youtube search query", max_results=25, min_views=10000)
+    retrieve_emails(youtube, "my youtube search query", max_results=10, min_views=10000)
