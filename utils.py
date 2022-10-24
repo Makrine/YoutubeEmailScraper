@@ -33,6 +33,7 @@ def find_email(text):
 def search(query, max_results, youtube):
     request = youtube.search().list(
         part="snippet",
+        order="videoCount",
         maxResults=max_results,
         q=query
     )
